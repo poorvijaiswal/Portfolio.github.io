@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="main">
+    <div class="smContainer">
+        <div class="content">
+            <div class="user-profile-area">
+                <div class="task-manager">Task Manager</div>
+                <div class="side-wrapper">
+                    <div class="user-profile">
+                        <img src="user-image.png" class="user-pic">
+                        <div class="user-details">
+                            <div class="user-name">Poorvi Jaiswal</div>
+                            <div class="user-email">poorvijaiswal@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="user-notification">
+                        <div class="notify"></div>
+                    </div>
+                    <div class="progress-area">
+                        <!-- <progress value="" max="100"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    <div class="todo-app">
+        <h2>TO DO List</h2>
+        <div class="row">
+                <div class="full">
+                    <label>Task:</label>
+                    <input type="text" id="inputBOX" placeholder="Add your text"><br>
+                </div>
+                <!-- <textarea id="inputBOX" placeholder="Add your text"></textarea><br> -->
+                <div class="full">
+                    <label>Due Date:</label>
+                    <input type="date" name="" id="myDate"><br>
+                </div>
+                <button onclick="addTask()">Add</button>
+    
+
+        </div>
+        
+        <ul id="listContainer">
+            <!-- <li class="checked">Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li> -->
+        </ul>
+    </div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
